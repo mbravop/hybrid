@@ -6,12 +6,24 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" class="ion-padding">
+  <ion-card>
+    <ion-card-header>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+    <!-- clase en la hoja de estilo -->
+      <ion-card-title class="titulo">Mi aplicación</ion-card-title>
+    
+  </ion-card-header>
+  
+    <ion-card-content>
+
+    <!-- identificador en la hoja de estilo -->
+    <p id="descripcion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Sed nesciunt officia est sapiente quidem accusantium, veritatis perferendis 
+        expedita, ad magni temporibus totam eligendi quod nemo sit eveniet, odit 
+        inventore aspernatur!</p>
+
+    </ion-card-content>
+  </ion-card>
+
 </ion-content>
